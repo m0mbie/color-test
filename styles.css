@@ -1,0 +1,35 @@
+/* CSS - Name: "positionstyles.css" */
+.content1 {
+    /* This is the parent of the activity 1 boxes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
+  .red1 { 
+    width: 100%; 
+    height: 100px; 
+    background-color: red; 
+    grid-column: 1; 
+  } 
+  .black1 {
+    width: 100%;
+    height: 100px;
+    background-color: #000; 
+    grid-column: 1;
+    grid-row: 3;
+  } 
+  .yellow1 {
+    width: 100%;
+    height: 100px;
+    background-color: gold; 
+    grid-column: 1;
+  }
+  .blue1 {
+    width: 100%; 
+    height: 100px; 
+    background-color: blue; 
+    grid-column: 1;
+  } 
+
+
